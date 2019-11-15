@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Register"
+    android:orientation="vertical"
+    android:background="@color/black">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:text="CREATE AN ACCOUNT"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textSize="35dp"
+        android:layout_marginTop="40dp"/>
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter User_Name"
+        android:inputType="textPersonName"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:background="#FFFFFF"
+
+    />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter Password"
+        android:inputType="textPassword"
+        android:layout_gravity="center"
+        android:background="#FFFFFF"
+        android:layout_marginTop="10dp"
+        />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="243dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="#FFFFFF"
+        android:text="Register"
+        android:textStyle="bold"/>
+
+</LinearLayout>

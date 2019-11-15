@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Teacher"
+    android:orientation="vertical"
+    android:background="@color/cl">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Edit Profile"
+        android:layout_gravity="center"
+        android:id="@+id/tch"
+        android:layout_marginTop="60dp"
+        android:textSize="30dp"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:layout_marginTop="20dp"
+        android:id="@+id/tch_nm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint=" Enter Teacher's Name"
+        android:layout_gravity="center"
+        android:background="@drawable/rounded"/>
+    <EditText
+        android:id="@+id/tch_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter the Email Id"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/rounded"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter the course"
+        android:background="@drawable/rounded"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:id="@+id/tch_cr"/>
+    <Button
+        android:layout_marginTop="10dp"
+        android:id="@+id/add_tch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ADD DETAILS"
+        android:layout_gravity="center"
+        android:background="@drawable/rounded"/>
+
+</LinearLayout>

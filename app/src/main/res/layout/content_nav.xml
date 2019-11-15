@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Profile"
+    tools:showIn="@layout/app_bar_main"
+    android:orientation="vertical"
+    android:background="@color/black">
+
+    <TextView
+        android:id="@+id/editText5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Teachers Details"
+        android:layout_gravity="center"
+        android:textSize="30dp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="213dp"
+        android:src="@drawable/attend3"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:id="@+id/pro"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:text="Teachers Name:"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/d1"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center"
+        android:textSize="18dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/s1"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:text="Teachers Email-Id"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/d2"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center"
+        android:textSize="18dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/s2"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:text="Teachers Course"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:id="@+id/d3"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center"
+        android:textSize="18dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/s3"/>
+
+</LinearLayout>

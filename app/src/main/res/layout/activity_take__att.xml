@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Take_Att"
+    android:orientation="vertical"
+    android:background="@color/cl">
+
+
+
+    <ImageView
+        android:layout_width="313dp"
+        android:layout_height="183dp"
+        android:layout_gravity="center"
+        android:src="@drawable/attend2" />
+    <EditText
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter Student_Id"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/rounded"
+        android:textSize="20dp"/>
+    <EditText
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter Roll No"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/rounded"
+        android:textSize="20dp"/>
+
+    <EditText
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter Semester"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/rounded"
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="date"
+        android:text="Choose Date"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:hint="Date"
+        android:textSize="20dp"
+        android:id="@+id/date1"/>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rg"
+        android:layout_marginTop="20dp">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Absent"
+            android:textStyle="bold"
+            android:id="@+id/ab"
+            android:layout_gravity="center"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Present"
+            android:id="@+id/pre"
+            android:textStyle="bold"
+            android:layout_gravity="center"/>
+    </RadioGroup>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Update Attendance"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded"
+        android:id="@+id/update"/>
+</LinearLayout>

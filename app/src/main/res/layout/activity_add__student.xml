@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Add_Student"
+    android:orientation="vertical"
+    android:background="@color/cl">
+
+    <TextView
+        android:id="@+id/stu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp"
+        android:text="ADD STUDENT"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:id="@+id/stu_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter Student_Id"
+        android:layout_gravity="center"
+
+        android:background="#FFFFFF"
+        android:layout_marginTop="30dp"
+        android:textSize="20dp" />
+    <EditText
+        android:id="@+id/stu_cr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter the Roll No"
+        android:layout_gravity="center"
+        android:background="#FFFFFF"
+        android:layout_marginTop="20dp"
+        android:textSize="25dp"/>
+    <Button
+        android:id="@+id/add_stu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ADD STUDENT"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"/>
+    <Button
+        android:id="@+id/del_stu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DELETE STUDENT"
+        android:layout_gravity="center" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Show the Students" />
+
+</LinearLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Show_Student"
+    android:orientation="vertical"
+    android:background="@color/cl">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="LIST OF STUDENTS"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:textSize="25dp"/>
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ls"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="20dp">
+    </ListView>
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:onClick="displayNotification"
+        android:layout_marginTop="20dp"
+        app:srcCompat="@android:drawable/checkbox_on_background"
+        android:layout_gravity="center"
+        />
+
+</LinearLayout>

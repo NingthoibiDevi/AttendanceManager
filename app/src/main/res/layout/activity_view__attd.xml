@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".View_Attd"
+    android:orientation="vertical"
+    android:background="@color/cl">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="VIEW ATTENDANCE"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:id="@+id/edit1"/>
+    <EditText
+        android:layout_marginTop="30dp"
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter StudentId"
+        android:layout_gravity="center"
+        android:background="@drawable/rounded"/>
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter The Roll No"
+        android:layout_gravity="center"
+        android:background="@drawable/rounded"/>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/viewatt"
+        android:text="View Attendance"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="#FFFFFF"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/total"
+        android:textSize="20dp"
+        android:textColor="#000000"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  DATE           STATUS"
+        android:textColor="#000000"
+        android:textSize="18dp"
+        android:layout_marginTop="10dp"/>
+
+    <ListView
+        android:id="@+id/list_stu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+
+    </ListView>
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="100dp"
+        android:layout_marginLeft="100dp"
+        android:onClick="displayNotification"
+        android:layout_marginTop="20dp"
+        app:srcCompat="@android:drawable/checkbox_on_background"
+        android:layout_gravity="center" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="Click on the button to download the attendance record"/>
+</LinearLayout>

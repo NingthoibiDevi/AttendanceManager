@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Splash"
+    android:orientation="vertical"
+    android:background="@color/cl">
+
+
+
+    <EditText
+        android:id="@+id/wel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="WELCOME TO THE ATTENDANCE"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+  />
+
+    <EditText
+        android:id="@+id/wel1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold"
+        android:text="MANAGEMENT SYSTEM"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+      />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="(A mobile Register for Teachers)"
+        android:layout_gravity="center"
+        android:textStyle="bold"/>
+    <ImageView
+        android:id="@+id/img1"
+        android:layout_width="342dp"
+        android:layout_height="206dp"
+        android:layout_gravity="center"
+        android:src="@drawable/attend"
+        android:layout_marginTop="30dp"/>
+
+</LinearLayout>
